@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping Site For Mobile</title>
+    <link rel="icon" href="./image/flipkart-logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</head>
+<body >
+
+    <div id="main-flipkart-1">
+        
+    <nav>
+        <div class="logo">
+            <img  class="flip"src="	https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/flipkart-plus_8d85f4.png" alt="flipkart" width="75px" height="22px">
+            <p class="explore" href="">Explore
+                <span class="plus-color">Plus</span>
+                <img src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/plus_aef861.png" alt="" width="10px" height="10px">
+            </p>
+            
+        </div>
+        <div class="search">
+           <input type="text"placeholder="Search for products , brands and more">
+           <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+    
+
+        <button class="btn-login">Login</button>
+        <a href="#" class="nav-text"> Become a seller</a>
+        <a href="#" class="nav-text angle-down"> 
+            More
+            <i class="fa-solid fa-angle-down"></i>
+        </a>
+        <a href="#"class="nav-text">
+            <i class="fa-solid fa-cart-shopping"></i>
+            Cart
+            </a>
+             <button onclick="ChangeMode()"  class="light">Light-Dark</button> 
+    </nav>
+    
+    
+    <!-- making the heading bottom -->
+    
+
+    <div class="heading_container-1">
+        
+        <div class="heading-bottom">
+            <div class="heading_item" >
+                <img src="./image/gift.png" alt=" image"  class="image-haeding">
+                <p class="image-text">Top Offers</p>
+            </div>
+            <div class="heading_item">
+                <img src="./image/grocery.png" alt=""  class="image-haeding">
+                <p class="image-text">Grocery</p>
+            </div>
+            <div class="heading_item" >
+                <img src="./image/mobile.png" alt="" class="image-haeding">
+                <p class="image-text">Mobiles</p>
+            </div>
+            <div class="heading_item" > 
+                <img src="./image/dress.png" alt="" class="image-haeding">
+                <p class="image-text angle-down">Fashion
+                    <i class="fa-solid fa-angle-down"></i>
+                </p>
+            </div>
+            <div class="heading_item">
+                <img src="./image/electronics.png" alt=""class="image-haeding">
+                <p class="image-text angle-down">Electronics
+                    <i class="fa-solid fa-angle-down"></i>
+                </p>
+            </div>
+            <div class="heading_item">
+                <img src="./image/chair.jpg" alt="" class="image-haeding">
+                <p class="image-text angle-down">Home
+                    <i class="fa-solid fa-angle-down"></i>
+                </p>
+            </div>
+            <div class="heading_item">
+                <img src="./image/appliance.png" alt="" class="image-haeding">
+                <p class="image-text">Appliances</p>
+            </div>
+            <div class="heading_item">
+                <img src="./image/travel.png" alt="" class="image-haeding">
+                <p class="image-text">Travel</p>
+            </div>
+            <div class="heading_item">
+                <img src="./image/Boy-toy.png" alt="" class="image-haeding">
+                <p class="image-text angle-down">Beauty,Toys&more
+                    <i class="fa-solid fa-angle-down"></i>
+                </p>
+            </div>
+            <div class="heading_item">
+                <img src="./image/wheller.png" alt="" class="image-haeding">
+                <p class="image-text">2-Wheelers</p>
+            </div> 
+        </div> 
+    </div>
+    
+     <!-- making the corousel --> 
+
+     
+     <div class="heading_container">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active item-image">
+                <img src="./image/crpsel-1.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item item-image">
+                <img src="./image/coursel-2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item item-image">
+                <img src="./image/crosel-2.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item item-image">
+                <img src="./image/crosel-3.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+    <!-- first electronic items -->
+    <div class="mains-weather">
+   
+    <div class="electronics-main-1">
+        <div class="main-electronics">
+             <div>
+            <h2 class="elctronic-text"> Best of electronics</h2>
+            <div >
+             <a  class="link-electronics"href=""> View all</a>
+            </div>
+            </div>
+        </div> 
+    
+     <div class="carousel" data-flickity='{ "groupCells": true }'>
+        <div class="carousel-cell">
+            <div class="electronic-1" >
+              <img class=""src="./image/camera.jpeg" alt="" srcset=""  >
+          </div>
+          <div class="text-img"> Camera</div>
+                <div class="text-img-2">from <i class="fa-sharp fa-solid fa-indian-rupee-sign "></i> 9999</div>
+                <div class="text-img-3">Canon</div>
+        
+        </div>
+        <div class="carousel-cell">
+          <div class="electronic-1" >
+              <img  src="./image/electronic-3.jpeg" alt="" srcset="">
+          </div>
+          <div class="text-img"> Monitors</div>
+                <div class="text-img-2">from <i class="fa-sharp fa-solid fa-indian-rupee-sign "></i> 6999</div>
+                <div class="text-img-3">Acer</div>
+        
+        </div>
+        <div class="carousel-cell">
+            <div class="electronic-1">
+                <img  class="electronic-1" src="./image/electronic-4.jpeg" alt="" >
+            </div>
+            <div class="text-img"> Printers</div>
+            <div class="text-img-2">from <i class="fa-sharp fa-solid fa-indian-rupee-sign "></i> 3999</div>
+            <div class="text-img-3">Acer</div>
+    
+       </div>
+        <div class="carousel-cell">
+            <div class="electronic-1"> 
+                <img  class="electronic-1"  src="./image/electronic-5.jpeg" alt="" >
+            </div>
+            <div class="text-img"> Monitor</div>
+            <div class="text-img-2">from <i class="fa-sharp fa-solid fa-indian-rupee-sign "></i> 7599</div>
+            <div class="text-img-3">Samsung</div>
+
+
+        </div>
+        <div class="carousel-cell">
+            <div class="electronic-1">
+                <img  class="electronic-1" src="./image/electronics-6.jpeg" alt="" >
+            </div>
+            <div class="text-img"> Best of Hair Dryers</div>
+            <div class="text-img-2">from  <i class="fa-sharp fa-solid fa-indian-rupee-sign "></i> 399</div>
+            <div class="text-img-3">Nova, Havells & more</div>
+        </div>
+        <div class="carousel-cell">
+            <div class="electronic-1">
+                <img  class="electronic-1" src="./image/electroni-7.jpeg" alt="" >
+            </div>
+            <div class="text-img"> Projectors</div>
+            <div class="text-img-2">from <i class="fa-sharp fa-solid fa-indian-rupee-sign "></i> 9999</div>
+            <div class="text-img-3">Zebronics</div>
+
+        </div>
+        <div class="carousel-cell">
+            <div class="electronic-1">
+                <img  class="electronic-1" src="./image/electronic-8.jpeg" alt="" >
+            </div>
+            <div class="text-img"> Monitor</div>
+            <div class="text-img-2">from<i class="fa-sharp fa-solid fa-indian-rupee-sign "></i> 8279</div>
+            <div class="text-img-3">DELL</div>
+        </div>
+        <div class="carousel-cell">
+            <div class="electronic-1">
+                <img  class="electronic-1" src="./image/electronic-9.jpeg" alt="" >
+            </div>
+            <div class="text-img"> Printers</div>
+            <div class="text-img-2">from <i class="fa-sharp fa-solid fa-indian-rupee-sign "></i> 3299</div>
+            <div class="text-img-3">Canon</div>
+
+        </div>
+        <div class="carousel-cell">
+            <div class="electronic-1">
+                <img  class="electronic-1" src="./image/electronic-10.jpeg" alt="" >
+            </div>
+            <div class="text-img"> Monitor</div>
+            <div class="text-img-2">from<i class="fa-sharp fa-solid fa-indian-rupee-sign "></i> 8279</div>
+            <div class="text-img-3">DELL</div>
+        </div>
+    
+      </div>
+    
+    </div>
+
+    <div class="weather">
+        
+            <p id="Status"> Weather Status</p>
+        
+        <button   class= "get-location"onclick="geolocation()"> Get location</button>
+        
+        <div class="latitude">
+            <p class="sun-img"><img src="./image/sunny-day.png" alt=""></p> 
+            
+           <div class="location"> <i class="fa-sharp fa-solid fa-location-dot"></i></div>
+        <p id="out"> 
+             </p>
+
+             
+        <p id="weather"> 
+             </p>
+
+        <p id = "description">
+
+        </p>
+    
+        
+
+    </div>
+    </div>
+    
+</div>
+    
+
+
+      <!-- Second Beauty item -->
+
+      <div class="electronics-main">
+        <div class="main-beauty">
+             <div>
+            <h2 class="elctronic-text">  Beauty, Food , Toys & more</h2>
+            <div >
+             <a  class="link-electronics"href=""> View all</a>
+            </div>
+            </div>
+        </div> 
+    
+     <div class="carousel" data-flickity='{ "groupCells": true }'>
+        <div class="carousel-cell">
+          <div class="electronic-1" >
+              <img src="./image/boy-toy-1.jpeg" alt="" srcset="">
+          </div>
+          <div class="text-img"> Women Hygiene</div>
+                <div class="text-img-2">Upto 40% Free</div>
+                <div class="text-img-3">Stayfree, whisper & more</div>
+        
+        </div>
+        <div class="carousel-cell">
+          <div class="electronic-1" >
+              <img class="electronic-1" src="./image/beauty-2.jpeg" alt="" srcset="">
+          </div>
+          <div class="text-img"> Premium Non-Geard Bicycle</div>
+                <div class="text-img-2">Upto 40% Free</div>
+                <div class="text-img-3">Herculus, Hero & more</div>
+        
+        </div>
+        <div class="carousel-cell">
+            <div class="electronic-1">
+                <img  class="electronic-1" src="./image/beauty-4.jpeg" alt="" >
+            </div>
+            <div class="text-img"> Musical instruments</div>
+            <div class="text-img-2">Upto 50% off</div>
+            <div class="text-img-3">Buy Now!</div>
+    
+       </div>
+        <div class="carousel-cell">
+            <div class="electronic-1">
+                <img  class="electronic-1" src="./image/beauty-3.jpeg" alt="" >
+            </div>
+            <div class="text-img"> Soft Toys</div>
+            <div class="text-img-2">Upto 70% off</div>
+            <div class="text-img-3">Stuffed Toys, Plush Toys & more</div>
+
+
+        </div>
+        <div class="carousel-cell">
+            <div class="electronic-1">
+                <img  class="electronic-1" src="./image/beauty-5.jpeg" alt="" >
+            </div>
+            <div class="text-img"> Gym Essentials</div>
+            <div class="text-img-2">from  <i class="fa-sharp fa-solid fa-indian-rupee-sign "></i> 199</div>
+            <div class="text-img-3">Shop Now !</div>
+        </div>
+        <div class="carousel-cell">
+            <div class="electronic-1">
+                <img  class="electronic-1" src="./image/beauty-6.jpeg" alt="" >
+            </div>
+            <div class="text-img"> Coffee Powder</div>
+            <div class="text-img-2">Upto 90% Off</div>
+            <div class="text-img-3">Nescafe, Continental & more</div>
+
+        </div>
+        <div class="carousel-cell">
+            <div class="electronic-1">
+                <img  class="electronic-1" src="./image/beauty-7.jpeg" alt="" >
+            </div>
+            <div class="text-img"> Top Selling Stationary</div>
+            <div class="text-img-2">from <i class="fa-sharp fa-solid fa-indian-rupee-sign "></i> 49</div>
+            <div class="text-img-3">Pen, Notebook & more</div>
+        </div>
+        <div class="carousel-cell">
+            <div class="electronic-1">
+                <img  class="electronic-1" src="./image/beauty-8.jpeg" alt="" >
+            </div>
+            <div class="text-img"> Baby Bathing accessories</div>
+            <div class="text-img-2">Under <i class="fa-sharp fa-solid fa-indian-rupee-sign "></i> 399</div>
+            <div class="text-img-3">Baby Bath Tubs & more</div>
+
+        </div>
+    
+      </div>
+    </div>
+    
+
+<!-- third Weding special -->
+<div class="electronics-main">
+    <div class="main-winter">
+         <div>
+        <h2 class="elctronic-text"> Winter </h2>
+        <h2 class="elctronic-text"> Essentials </h2> 
+        <div >
+           
+         <a  class="link-electronics"href=""> View all</a>
+        </div>
+        </div>
+    </div> 
+
+ <div class="carousel" data-flickity='{ "groupCells": true }'>
+    <div class="carousel-cell">
+      <div class="electronic-1">
+          <img src="./image/winter-1.jpeg" alt="" srcset="">
+      </div>
+      <div class="text-img"> Men's Caps</div>
+            <div class="text-img-2"> Upto 50% Off</div>
+            
+    
+    </div>
+    <div class="carousel-cell">
+      <div class="electronic-1" >
+          <img src="./image/winter-2.jpeg" alt="" srcset="">
+      </div>
+      <div class="text-img"> Mem's Sweatshirts</div>
+            <div class="text-img-2">Upto 90% Off</div>
+            
+    
+    </div>
+    <div class="carousel-cell">
+        <div class="electronic-1">
+            <img  class="electronic-1" src="./image/winter-3.jpeg" alt="" >
+        </div>
+        <div class="text-img"> Men's Track Pants</div>
+        <div class="text-img-2">Upto 50% off</div>
+        
+
+   </div>
+    <div class="carousel-cell">
+        <div class="electronic-1">
+            <img  class="electronic-1" src="./image/winter-4.jpeg" alt="" >
+        </div>
+        <div class="text-img"> Trouser's</div>
+        <div class="text-img-2">Upto 90% Off </div>
+        
+
+
+    </div>
+    <div class="carousel-cell">
+        <div class="electronic-1">
+            <img  class="electronic-1" src="./image/winter-6.jpeg" alt="" >
+        </div>
+        <div class="text-img"> Women's Muffler</div>
+        <div class="text-img-2">Upto 30% Off</div>
+
+    </div>
+    <div class="carousel-cell">
+        <div class="electronic-1">
+            <img  class="electronic-1" src="./image/winter-5.jpeg" alt="" >
+        </div>
+        <div class="text-img"> Trouser's</div>
+        <div class="text-img-2">Min. 50% Off</div>
+        
+
+    </div>
+    <div class="carousel-cell">
+        <div class="electronic-1">
+            <img  class="electronic-1" src="./image/winter-7.jpeg" alt="" >
+        </div>
+        <div class="text-img"> Men Muffler</div>
+        <div class="text-img-2">Min. 20% Off</div>
+        
+    </div>
+    <div class="carousel-cell">
+        <div class="electronic-1">
+            <img  class="electronic-1" src="./image/winter-8.jpeg" alt="" >
+        </div>
+        <div class="text-img"> Men's Tracksuits</div>
+        <div class="text-img-2">Min. 50% Off</div>
+        
+
+    </div>
+
+  </div>
+</div>
+
+<!-- fourth home special -->
+
+<div class="electronics-main">
+    <div class="main-home">
+         <div>
+        <h2 class="elctronic-text"> Kitchen & Home Essentials</h2>
+        
+        <div >
+           
+         <a  class="link-electronics"href=""> View all</a>
+        </div>
+        </div>
+    </div> 
+
+ <div class="carousel" data-flickity='{ "groupCells": true }'>
+    <div class="carousel-cell">
+      <div class="electronic-1" >
+          <img src="./image/home-1.jpeg" alt="" srcset="">
+      </div>
+      <div class="text-img">Power and Hand Tool kit</div>
+            <div class="text-img-2"> Min. 50% Off</div>
+            <div class="text-img-3">Big Selling</div>
+            
+    
+    </div>
+    <div class="carousel-cell">
+      <div class="electronic-1">
+          <img  src="./image/home-2.jpeg" alt="" srcset="">
+      </div>
+      <div class="text-img"> Containers</div>
+            <div class="text-img-2">Upto 90% Off</div>
+            <div class="text-img-3">Big Selling</div>
+            
+    
+    </div>
+    <div class="carousel-cell">
+        <div class="electronic-1">
+            <img  class="electronic-1" src="./image/home-3.jpeg" alt="" >
+        </div>
+        <div class="text-img"> Decoratives</div>
+        <div class="text-img-2">Min. 50% off</div>
+        <div class="text-img-3">Big Selling</div>
+            
+
+   </div>
+    <div class="carousel-cell">
+        <div class="electronic-1">
+            <img  class="electronic-1" src="./image/home-4.jpeg" alt="" >
+        </div>
+        <div class="text-img"> Measuring Taps and Levels</div>
+        <div class="text-img-2">From <i class="fa-sharp fa-solid fa-indian-rupee-sign "></i> 99</div>
+        <div class="text-img-3">Big Selling</div>
+            
+
+
+    </div>
+    <div class="carousel-cell">
+        <div class="electronic-1">
+            <img  class="electronic-1" src="./image/home-5.jpeg" alt="" >
+        </div>
+        <div class="text-img"> Decoratives Statue</div>
+        <div class="text-img-2">Upto 30% Off</div>
+        <div class="text-img-3">Big Selling</div>
+            
+    </div>
+    <div class="carousel-cell">
+        <div class="electronic-1">
+            <img  class="electronic-1" src="./image/home-6.jpeg" alt="" >
+        </div>
+        <div class="text-img"> Silk Bedsheets</div>
+        <div class="text-img-2">Min. 50% Off</div>
+        <div class="text-img-3">Big Selling</div>
+            
+
+    </div>
+    <div class="carousel-cell">
+        <div class="electronic-1">
+            <img  class="electronic-1" src="./image/home-7.jpeg" alt="" >
+        </div>
+        <div class="text-img"> Candle Decoratives</div>
+        <div class="text-img-2">Min. 20% Off</div>
+        <div class="text-img-3">Big Selling</div>
+            
+    </div>
+    <div class="carousel-cell">
+        <div class="electronic-1">
+            <img  class="electronic-1" src="./image/home-8.jpeg" alt="" >
+        </div>
+        <div class="text-img"> Clocks</div>
+        <div class="text-img-2">from <i class="fa-sharp fa-solid fa-indian-rupee-sign "></i> 100</div>
+        <div class="text-img-3">Big Selling</div>
+            
+
+    </div>
+
+  </div>
+</div>
+
+<!-- fifth top deals -->
+<div class="electronics-main">
+    <div class="main-electronics">
+         <div>
+        <h2 class="elctronic-text"> Top Deals</h2>
+        <div >
+         <a  class="link-electronics"href=""> View all</a>
+        </div>
+        </div>
+    </div> 
+
+ <div class="carousel" data-flickity='{ "groupCells": true }'>
+    <div class="carousel-cell">
+      <div class="electronic-1" >
+          <img src="./image/deal-1.jpeg" alt="" srcset="">
+      </div>
+      <div class="text-img"> Apple iPads</div>
+            <div class="text-img-2">Shop Now!</div>
+            <div class="text-img-3">Liquid Retina Display</div>
+    
+    </div>
+    <div class="carousel-cell">
+      <div class="electronic-1">
+          <img  src="./image/deal-2.jpeg" alt="" srcset="">
+      </div>
+      <div class="text-img"> Grab Now</div>
+            <div class="text-img-2">from <i class="fa-sharp fa-solid fa-indian-rupee-sign "></i> 99</div>
+            <div class="text-img-3">Chargers , Cable & more</div>
+    
+    </div>
+    <div class="carousel-cell">
+        <div class="electronic-1">
+            <img  class="electronic-1" src="./image/deal-3.jpeg" alt="" >
+        </div>
+        <div class="text-img"> Instax Cameras</div>
+        <div class="text-img-2">from <i class="fa-sharp fa-solid fa-indian-rupee-sign "></i> 3999</div>
+        <div class="text-img-3">Capture Your Unique Moments</div>
+
+   </div>
+    <div class="carousel-cell">
+        <div class="electronic-1">
+            <img  class="electronic-1" src="./image/deal-4.jpeg" alt="" >
+        </div>
+        <div class="text-img"> Cameras Lens Protectors</div>
+        <div class="text-img-2">from <i class="fa-sharp fa-solid fa-indian-rupee-sign "></i> 99</div>
+        <div class="text-img-3">For All Top Models</div>
+
+
+    </div>
+    <div class="carousel-cell">
+        <div class="electronic-1">
+            <img  class="electronic-1" src="./image/deal-5.jpeg" alt="" >
+        </div>
+        <div class="text-img"> Light Up Now </div>
+        <div class="text-img-2">from  <i class="fa-sharp fa-solid fa-indian-rupee-sign "></i> 199</div>
+        <div class="text-img-3">Digitek , Dogger and more</div>
+    </div>
+    <div class="carousel-cell">
+        <div class="electronic-1">
+            <img  class="electronic-1" src="./image/deal-6.jpeg" alt="" >
+        </div>
+        <div class="text-img"> Lenovo Tab M8</div>
+        <div class="text-img-2">Shop Now!</div>
+        <div class="text-img-3"> 8-inch | Upto 64GB</div>
+
+    </div>
+    <div class="carousel-cell">
+        <div class="electronic-1">
+            <img  class="electronic-1" src="./image/deal-7.jpeg" alt="" >
+        </div>
+        <div class="text-img"> Realme Pad</div>
+        <div class="text-img-2">Shop Now!</div>
+        <div class="text-img-3"># 1 Best Seller In Charts!</div>
+    </div>
+    <div class="carousel-cell">
+        <div class="electronic-1">
+            <img  class="electronic-1" src="./image/deaL-8.jpeg" alt="" >
+        </div>
+        <div class="text-img">Remote COntrol Toys</div>
+        <div class="text-img-2">from <i class="fa-sharp fa-solid fa-indian-rupee-sign "></i> 299</div>
+        <div class="text-img-3">Buy Now!</div>
+
+    </div>
+
+  </div>
+</div>
+
+<!-- sixth furniture -->
+
+<div class="electronics-main">
+    <div class="main-furniture">
+         <div>
+        <h2 class="elctronic-text"> Furniture Bestsellers</h2>
+        <div >
+         <a  class="link-electronics"href=""> View all</a>
+        </div>
+        </div>
+    </div> 
+
+ <div class="carousel" data-flickity='{ "groupCells": true }'>
+    <div class="carousel-cell">
+        <div class="electronic-1" >
+          <img class=""src="./image/furniture-1.jpeg" alt="" srcset="">
+      </div>
+      <div class="text-img"> Wardrobes</div>
+            <div class="text-img-2">from <i class="fa-sharp fa-solid fa-indian-rupee-sign "></i> 4999</div>
+            <div class="text-img-3">2,3,4 Door...</div>
+    
+    </div>
+    <div class="carousel-cell">
+      <div class="electronic-1" >
+          <img  src="./image/furniture-4.jpeg" alt="" srcset="">
+      </div>
+      <div class="text-img"> Matresses</div>
+            <div class="text-img-2">Upto 60% Off</div>
+            <div class="text-img-3">Spring, Foam & more</div>
+    
+    </div>
+    <div class="carousel-cell">
+        <div class="electronic-1">
+            <img  class="electronic-1" src="./image/furniture-3.jpeg" alt="" >
+        </div>
+        <div class="text-img"> Office Study Chairs</div>
+        <div class="text-img-2">from <i class="fa-sharp fa-solid fa-indian-rupee-sign "></i> 1890</div>
+        <div class="text-img-3">Best For Work For Home</div>
+
+   </div>
+    <div class="carousel-cell">
+        <div class="electronic-1"> 
+            <img  class="" src="./image/furniture-4.jpeg" alt="" >
+        </div>
+        <div class="text-img"> Bestselling Beds</div>
+        <div class="text-img-2">from <i class="fa-sharp fa-solid fa-indian-rupee-sign "></i> 7599</div>
+        <div class="text-img-3">King, Queen & more</div>
+
+
+    </div>
+    <div class="carousel-cell">
+        <div class="electronic-1">
+            <img  class="electronic-1" src="./image/furniture-5.jpeg" alt="" >
+        </div>
+        <div class="text-img"> Recliner</div>
+        <div class="text-img-2">from  <i class="fa-sharp fa-solid fa-indian-rupee-sign "></i> 11.999</div>
+        <div class="text-img-3">Cozy Corners</div>
+    </div>
+    <div class="carousel-cell">
+        <div class="electronic-1">
+            <img  class="electronic-1" src="./image/furniture-6.jpeg" alt="" >
+        </div>
+        <div class="text-img"> Office Study Table</div>
+        <div class="text-img-2">from <i class="fa-sharp fa-solid fa-indian-rupee-sign "></i> 1,999</div>
+        <div class="text-img-3">Work at home like a Boss</div>
+
+    </div>
+    <div class="carousel-cell">
+        <div class="electronic-1">
+            <img  class="electronic-1" src="./image/home-6.jpeg" alt="" >
+        </div>
+        <div class="text-img"> Bedsheets</div>
+        <div class="text-img-2">from <i class="fa-sharp fa-solid fa-indian-rupee-sign "></i> 999</div>
+        <div class="text-img-3">Well Comfort</div>
+    </div>
+    <div class="carousel-cell">
+        <div class="electronic-1">
+            <img  class="electronic-1" src="./image/furniture-8.jpeg" alt="" >
+        </div>
+        <div class="text-img"> Matress Protector</div>
+        <div class="text-img-2">from <i class="fa-sharp fa-solid fa-indian-rupee-sign "></i> 149</div>
+        <div class="text-img-3">Easy Wash</div>
+
+    </div>
+
+  </div>
+</div>
+
+
+
+
+
+
+
+
+ <!-- footer --> 
+<div class="footer">
+    <div class="footer-class">
+        <span>Top Stories</span>
+        :
+        <a  class="footer-1 "href=""> Brand Directory</a>
+    </div>
+
+<div class="footer-heading">
+    <span class="footer-class">
+     most searched on flipkart
+    </span>
+    :
+    <a  class="footer-2 "href=""> Bounce infinity EI</a>
+    <a  class="footer-2 "href=""> I phone 14</a>
+    <a  class="footer-2 "href=""> Vivo T1X</a>
+    <a  class="footer-2 "href=""> OPPO Reno-8 5G</a>
+    <a  class="footer-2 "href=""> NOTHING phone 1</a>
+    <a  class="footer-2 "href=""> Sell Old Mobile Phones</a>
+    <a  class="footer-2 "href=""> Electronics store </a>
+    <a  class="footer-2 "href=""> Samsung Window</a>
+    <a  class="footer-2 "href=""> Google Pixel</a>
+    <a  class="footer-2 "href=""> Flipkart Quick</a>
+    <a  class="footer-2 "href=""> Bounce infinity EI</a>
+    <a  class="footer-2 "href=""> I phone 14</a>
+    <a  class="footer-2 "href=""> Vivo T1X</a>
+    <a  class="footer-2 "href=""> OPPO Reno-8 5G</a>
+    <a  class="footer-2 "href=""> NOTHING phone 1</a>
+    <a  class="footer-2 "href=""> Sell Old Mobile Phones</a>
+    <a  class="footer-2 "href=""> Electronics store </a>
+    <a  class="footer-2 "href=""> Samsung Window</a>
+    <a  class="footer-2 "href=""> Google Pixel</a>
+    <a  class="footer-2 "href=""> Flipkart Quick</a>
+    <a  class="footer-2 "href=""> Bounce infinity EI</a>
+    <a  class="footer-2 "href=""> I phone 14</a>
+    <a  class="footer-2 "href=""> Vivo T1X</a>
+    <a  class="footer-2 "href=""> OPPO Reno-8 5G</a>
+    <a  class="footer-2 "href=""> NOTHING phone 1</a>
+    <a  class="footer-2 "href=""> Sell Old Mobile Phones</a>
+    <a  class="footer-2 "href=""> Electronics store </a>
+    <a  class="footer-2 "href=""> Samsung Window</a>
+    <a  class="footer-2 "href=""> Google Pixel</a>
+    <a  class="footer-2 "href=""> Flipkart Quick</a>
+    <a  class="footer-2 "href=""> Bounce infinity EI</a>
+    <a  class="footer-2 "href=""> I phone 14</a>
+    <a  class="footer-2 "href=""> Vivo T1X</a>
+    <a  class="footer-2 "href=""> OPPO Reno-8 5G</a>
+    <a  class="footer-2 "href=""> NOTHING phone 1</a>
+    <a  class="footer-2 "href=""> Sell Old Mobile Phones</a>
+    <a  class="footer-2 "href=""> Electronics store </a>
+    <a  class="footer-2 "href=""> Samsung Window</a>
+    <a  class="footer-2 "href=""> Google Pixel</a>
+    <a  class="footer-2 "href=""> Flipkart Quick</a>
+    <a  class="footer-2 "href=""> Bounce infinity EI</a>
+    <a  class="footer-2 "href=""> I phone 14</a>
+    <a  class="footer-2 "href=""> Vivo T1X</a>
+    <a  class="footer-2 "href=""> OPPO Reno-8 5G</a>
+    <a  class="footer-2 "href=""> NOTHING phone 1</a>
+    <a  class="footer-2 "href=""> Sell Old Mobile Phones</a>
+    <a  class="footer-2 "href=""> Electronics store </a>
+    <a  class="footer-2 "href=""> Samsung Window</a>
+    <a  class="footer-2 "href=""> Google Pixel</a>
+    <a  class="footer-2 "href=""> Flipkart Quick</a>
+
+</div> 
+
+<div class="footer-3">
+    <div>
+        <h4 class="footer-3">Flipkart: The One-stop Shopping Destination</h4>
+        <p>E-commerce is revolutionizing the way we all shop in India. Why do you want to hop from one store to another in search of the latest phone when you can find it on the Internet in a single click? Not only mobiles. Flipkart houses everything you can possibly imagine, from trending electronics like laptops, tablets, smartphones, and mobile accessories to in-vogue fashion staples like shoes, clothing and lifestyle accessories; from modern furniture like sofa sets, dining tables, and wardrobes to appliances that make your life easy like washing machines, TVs, ACs, mixer grinder juicers and other time-saving kitchen and small appliances; from home furnishings like cushion covers, mattresses and bedsheets to toys and musical instruments, we got them all covered. You name it, and you can stay assured about finding them all here. For those of you with erratic working hours, Flipkart is your best bet. Shop in your PJs, at night or in the wee hours of the morning. This e-commerce never shuts down.</p>
+    </div>
+
+</div>
+</div>
+
+<div class="main-footer">
+    
+    <div class="main-footer-1">
+
+ <div class="main-ft-1">
+    <div class="main-f-1">
+        About
+    </div>
+    <a href="" class="main-f-2"> Contact Us</a>
+    <a href="" class="main-f-2"> About Us</a>
+    <a href="" class="main-f-2"> Carrers</a>
+    <a href="" class="main-f-2"> Flipkart Stories</a>
+    <a href="" class="main-f-2"> Press</a>
+    <a href="" class="main-f-2"> Flipkart Wholesale</a>
+    <a href="" class="main-f-2"> Corporate Information</a>
+         
+
+ </div>
+ <div class="main-ft-1">
+    <div class="main-f-1">
+        HELP
+    </div>
+    <a href="" class="main-f-2"> Payments</a>
+    <a href="" class="main-f-2"> Shipping</a>
+    <a href="" class="main-f-2"> Cancellation & Returns</a>
+    <a href="" class="main-f-2">  FAQ</a>
+    <a href="" class="main-f-2"> Report Infringement</a>
+    
+   
+</div>
+<div class="main-ft-1">
+    <div class="main-f-1">
+        POLICY
+    </div>
+    <a href="" class="main-f-2"> Return Policy</a>
+    <a href="" class="main-f-2"> Terms Of Use</a>
+    <a href="" class="main-f-2"> Security</a>
+    <a href="" class="main-f-2"> Privacy</a>
+    <a href="" class="main-f-2"> Sitemap</a>
+    <a href="" class="main-f-2"> EPR complience</a>
+    
+   
+</div>
+<div class="main-ft-2">
+    <div class="main-f-1">
+        SOCIAL
+    </div>
+    <a href="" class="main-f-2"> Facebook</a>
+    <a href="" class="main-f-2"> You tube</a>
+    <a href="" class="main-f-2"> Twitter</a>
+    
+</div>
+<div class="main-ft-3">
+    <div class="main-f-1">
+        Mail Us :
+    </div>
+    <p class="main-f-p">Flipkart Internet Private Limited,
+    Buildings Alyssa, Begonia &
+    Clove Embassy Tech Village,
+    Outer Ring Road, Village,
+    Bengaluru, 560103,
+    Karnataka, India</p>
+   
+</div>
+<div class="main-ft-3">
+    <div class="main-f-1">
+        Registered Office Address
+    </div>
+    <p class="main-f-p">Flipkart Internet Private Limited,
+                  Buildings Alyssa, Begonia &
+        
+        Clove Embassy Tech Village,
+        
+        Outer Ring Road, Devarabeesanahalli Village,
+        
+        Bengaluru, 560103, Karnataka, IndiaCIN : U51109KA2012PTC066107Telephone: 044-45614700</p>
+
+    
+</div>
+
+</div>
+    <div class="footer-btm">
+        <div class="footer-btm-1" >
+            <img src="./image/footer-1.png" alt="">
+            <span class="footer-btm-2">Become a Seller</span>
+        </div>
+    
+
+    <div class="footer-btm-1" >
+        <img src="./image/footer-2.png" alt="">
+        <span class="footer-btm-2">Adevertise</span>
+    </div>
+
+    <div class="footer-btm-1" >
+        <img src="./image/footer-3.png" alt="">
+        <span class="footer-btm-2">Gift Cards</span>
+    </div>
+
+
+    <div class="footer-btm-1" >
+        <img src="./image/footer-4.png" alt="">
+        <span class="footer-btm-2">Help Center</span>
+    </div>
+
+    <div class="footer-btm-3" >
+        
+        <span class="footer-btm-2">&copy; 2007-2022 Flipkart.com</span>
+    </div>
+
+    <div class="footer-btm-3" >
+        <img src="./image/footer-5.png" alt="">
+        
+    </div>
+ </div>
+
+</div>
+</div>
+
+</div>
+
+<div id="main-coupon">
+    <button onclick="closeCoupon()" class="cross">&times;</button>
+
+</div>
+<script>
+    window.onload = loadCoupon();
+
+
+
+    let out = document.getElementById('out')
+    let weather = document.getElementById('weather')
+    let description =  document.getElementById('description')
+    
+
+function geolocation(){
+         if(navigator.geolocation){
+            navigator.geolocation.getCurrentPosition(showPosition)
+         }else{
+            out.innerText = " Geo not working properly"
+         }
+}
+
+function showPosition(data){
+    console.log(data)
+
+    let lat = data.coords.latitude;
+    let lon = data.coords.longitude;
+
+    // let out = `latitude is ${lat} and longitude id ${lon}`;
+
+    out.innerText = out
+
+    const url = `https://api.openweathermap.org/data/2.5/forecast/daily?lat=29.6878495&lon=76.95812849999999&mode=json&units=metric&cnt=5&appid=fbf712a5a83d7305c3cda4ca8fe7ef29`
+    
+
+    fetch(url,{method: 'GET' })
+
+    .then((res) => res.json())
+
+    .then((data) =>{
+        console.log(data)
+        let city = data.city.name;
+         let temp = data.list[0].temp.day;
+        let description = data.list[0].weather[0].description;
+        out.innerText =   ` Location is  ${city}`
+        weather.innerText = ` Temp. is ${temp} °C  .... weather description is ${description}`;
+        
+    
+    })
+
+
+}
+</script>
+
+
+</body>
+</html>
